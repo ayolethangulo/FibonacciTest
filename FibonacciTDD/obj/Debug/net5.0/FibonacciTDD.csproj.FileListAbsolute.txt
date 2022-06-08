@@ -1,0 +1,12 @@
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\bin\Debug\net5.0\FibonacciTDD.deps.json
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\bin\Debug\net5.0\FibonacciTDD.dll
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\bin\Debug\net5.0\ref\FibonacciTDD.dll
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\bin\Debug\net5.0\FibonacciTDD.pdb
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\obj\Debug\net5.0\FibonacciTDD.csproj.AssemblyReference.cache
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\obj\Debug\net5.0\FibonacciTDD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\obj\Debug\net5.0\FibonacciTDD.AssemblyInfoInputs.cache
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\obj\Debug\net5.0\FibonacciTDD.AssemblyInfo.cs
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\obj\Debug\net5.0\FibonacciTDD.csproj.CoreCompileInputs.cache
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\obj\Debug\net5.0\FibonacciTDD.dll
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\obj\Debug\net5.0\ref\FibonacciTDD.dll
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTDD\obj\Debug\net5.0\FibonacciTDD.pdb

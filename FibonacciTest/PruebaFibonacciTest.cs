@@ -16,5 +16,9 @@ namespace FibonacciTest
             Assert.AreEqual(0,respuesta);
         }
 
+        public int sumarPosicion(int posicion)
+        {
+            return 0;
+        }
     }
 }
