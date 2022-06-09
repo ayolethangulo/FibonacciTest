@@ -30,6 +30,13 @@ namespace FibonacciTest
             Assert.AreEqual(-1, respuesta);
         }
 
+        [Test]
+        public void ValidarNPosicion()
+        {
+            var respuesta = sumarPosicion(3);
+            Assert.AreEqual(1, respuesta);
+        }
+
         public int sumarPosicion(int posicion)
         {
             int resultado = 0;
