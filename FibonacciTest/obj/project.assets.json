@@ -1253,6 +1253,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "FibonacciTDD/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FibonacciTDD.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FibonacciTDD.dll": {}
+        }
       }
     }
   },
@@ -4942,10 +4952,16 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "FibonacciTDD/1.0.0": {
+      "type": "project",
+      "path": "../FibonacciTDD/FibonacciTDD.csproj",
+      "msbuildProject": "../FibonacciTDD/FibonacciTDD.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "FibonacciTDD >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NUnit >= 3.13.1",
       "NUnit3TestAdapter >= 3.17.0",
@@ -4978,7 +4994,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ANA\\source\\repos\\FibonacciTest\\FibonacciTDD\\FibonacciTDD.csproj": {
+              "projectPath": "C:\\Users\\ANA\\source\\repos\\FibonacciTest\\FibonacciTDD\\FibonacciTDD.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

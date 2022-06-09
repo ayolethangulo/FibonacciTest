@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using FibonacciTDD;
 
 namespace FibonacciTest
 {
@@ -12,28 +13,32 @@ namespace FibonacciTest
         [Test]
         public void PrimeraPosicionCero()
         {
-            var respuesta = sumarPosicion(1);
+            var fibonacci = new Fibonacci();
+            var respuesta = fibonacci.sumarPosicion(1);
             Assert.AreEqual(0,respuesta);
         }
 
         [Test]
         public void SegundaPosicionUno()
         {
-            var respuesta = sumarPosicion(2);
+            var fibonacci = new Fibonacci();
+            var respuesta = fibonacci.sumarPosicion(2);
             Assert.AreEqual(1, respuesta);
         }
 
         [Test]
         public void ValidarQueSeaMayorACero()
         {
-            var respuesta = sumarPosicion(-5);
+            var fibonacci = new Fibonacci();
+            var respuesta = fibonacci.sumarPosicion(-5);
             Assert.AreEqual(-1, respuesta);
         }
 
         [Test]
         public void ValidarNPosicion()
         {
-            var respuesta = sumarPosicion(8);
+            var fibonacci = new Fibonacci();
+            var respuesta = fibonacci.sumarPosicion(8);
             Assert.AreEqual(13, respuesta);
         }
 

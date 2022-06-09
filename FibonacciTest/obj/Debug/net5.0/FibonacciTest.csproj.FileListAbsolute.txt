@@ -99,3 +99,6 @@ C:\Users\ANA\source\repos\FibonacciTest\FibonacciTest\obj\Debug\net5.0\Fibonacci
 C:\Users\ANA\source\repos\FibonacciTest\FibonacciTest\obj\Debug\net5.0\ref\FibonacciTest.dll
 C:\Users\ANA\source\repos\FibonacciTest\FibonacciTest\obj\Debug\net5.0\FibonacciTest.pdb
 C:\Users\ANA\source\repos\FibonacciTest\FibonacciTest\obj\Debug\net5.0\FibonacciTest.genruntimeconfig.cache
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTest\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTest\bin\Debug\net5.0\FibonacciTDD.dll
+C:\Users\ANA\source\repos\FibonacciTest\FibonacciTest\bin\Debug\net5.0\FibonacciTDD.pdb
