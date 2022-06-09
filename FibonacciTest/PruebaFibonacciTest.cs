@@ -50,6 +50,18 @@ namespace FibonacciTest
                 {
                     resultado = 1;
                 }
+                else
+                {
+                    //validar n posicion
+                    int a = 0; int b = 1; int c = 0;
+                    for (int i = 1; i < posicion; i++)
+                    {
+                        a = b;
+                        b = c;
+                        c = a + b;
+                    }
+                    resultado = c;
+                }
             }
             else
             {
