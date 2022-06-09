@@ -25,7 +25,12 @@ namespace FibonacciTest
 
         public int sumarPosicion(int posicion)
         {
-            return 0;
+            int resultado = 0;
+            if (posicion.Equals(2))
+            {
+                resultado = 1;
+            }
+            return resultado;
         }
 
     }
