@@ -16,9 +16,17 @@ namespace FibonacciTest
             Assert.AreEqual(0,respuesta);
         }
 
+        [Test]
+        public void SegundaPosicionUno()
+        {
+            var respuesta = sumarPosicion(2);
+            Assert.AreEqual(1, respuesta);
+        }
+
         public int sumarPosicion(int posicion)
         {
             return 0;
         }
+
     }
 }
