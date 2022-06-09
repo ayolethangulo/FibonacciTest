@@ -38,8 +38,8 @@ namespace FibonacciTest
         public void ValidarNPosicion()
         {
             var fibonacci = new Fibonacci();
-            var respuesta = fibonacci.sumarPosicion(8);
-            Assert.AreEqual(13, respuesta);
+            var respuesta = fibonacci.sumarPosicion(9);
+            Assert.AreEqual(21, respuesta);
         }
 
     }

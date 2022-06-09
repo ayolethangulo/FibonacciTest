@@ -6,36 +6,29 @@ namespace FibonacciTDD
     {
         public int sumarPosicion(int posicion)
         {
-            int resultado = 0;
-            if (posicion >= 0)
+            switch (posicion)
             {
-                if (posicion.Equals(1))
-                {
-                    resultado = 0;
-                }
-                else if (posicion.Equals(2))
-                {
-                    resultado = 1;
-                }
-                else
-                {
-                    //validar n posicion
-                    int a = 0; int b = 1; int c = 0;
-                    for (int i = 1; i < posicion; i++)
-                    {
-                        a = b;
-                        b = c;
-                        c = a + b;
-                    }
-                    resultado = c;
-                }
+                case 1:
+                    return 0;
+                case 2:
+                    return 1;
+                case < 0:
+                    return -1;
+                default:
+                    return NPosicion(posicion);
             }
-            else
+        }
+        public int NPosicion(int posicion)
+        {
+            //validar n posicion
+            int a = 0; int b = 1; int c = 0;
+            for (int i = 1; i < posicion; i++)
             {
-                resultado = -1;
+                a = b;
+                b = c;
+                c = a + b;
             }
-
-            return resultado;
+            return c;
         }
     }
 }
