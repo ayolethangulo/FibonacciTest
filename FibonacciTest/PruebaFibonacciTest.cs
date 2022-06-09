@@ -23,13 +23,32 @@ namespace FibonacciTest
             Assert.AreEqual(1, respuesta);
         }
 
+        [Test]
+        public void ValidarQueSeaMayorACero()
+        {
+            var respuesta = sumarPosicion(-5);
+            Assert.AreEqual(-1, respuesta);
+        }
+
         public int sumarPosicion(int posicion)
         {
             int resultado = 0;
-            if (posicion.Equals(2))
+            if (posicion >= 0)
             {
-                resultado = 1;
+                if (posicion.Equals(1))
+                {
+                    resultado = 0;
+                }
+                else if (posicion.Equals(2))
+                {
+                    resultado = 1;
+                }
             }
+            else
+            {
+                resultado = -1;
+            }
+            
             return resultado;
         }
 
